@@ -1,1 +1,0 @@
-for i in {0..255}; do for j in {0..255}; do printf "%x,%x" $i $j; python monsters.py $(printf "0x%x" $i) $(printf "0x%x" $j) | nc shell2017.picoctf.com 4463; done; done
