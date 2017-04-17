@@ -6,8 +6,8 @@ Writeups for Pico CTF 2017 capture the flag hacking compeition
   * [Bash Loop] (40 Pts)
   * [Just No] (40 Pts)
 * Level 2
-  * [Shellz] (55 Pts)
-  * [Shells] (70 Pts)
+  * [Shellz](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level2/shellz) (55 Pts)
+  * [Shells](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level2/shells) (70 Pts)
   * [Guess The Number](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level2/guess_the_number) (75 Pts)
   * [Ive Got A Secret] (75 Pts)
   * [Flagsay 1](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level2/flagsay_1) (80 Pts)
