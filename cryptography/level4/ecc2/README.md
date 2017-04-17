@@ -1,6 +1,6 @@
 # ECC2
 
-For this problem, I used the Pohlig-Hellman algorithm, however keeping in mind that every 1 increase in the scalar of a subgroup results in a large change to the final scalar, using this fact and the bound to better computer the bounds for each Baby Step-Giant Step search on the subgroups.
+For this problem, we used the Pohlig-Hellman algorithm, keeping in mind that every small increase in the scalar of a subgroup results in a large change to the final scalar and the overall bound, we better computer the bounds for each Baby Step-Giant Step search on the subgroups.
 
 ```python
 #! /usr/bin/env sage
