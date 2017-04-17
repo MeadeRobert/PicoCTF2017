@@ -1,6 +1,12 @@
 # FOREST
 
-For this problem I used decompilers such as [snowman](https://derevenets.com/) and [boomerang](http://boomerang.sourceforge.net/) to convert the program over to C, then a simple python script to generate the correct input for that program.
+```
+I was wandering the forest and found a file. It came with some string
+HINTS
+A number of disassemblers have tools to help view structs
+```
+
+For this problem we used decompilers such as [snowman](https://derevenets.com/) and [boomerang](http://boomerang.sourceforge.net/) to convert the program over to C, then a simple python script to generate the correct input for that program by brute force over the set of all 32 bit integers.
 
 The C code:
 ```c
@@ -137,3 +143,13 @@ for p in paths:
 
 print(r)
 ```
+
+Running the python script we get the following.
+
+```
+$ python forest.py
+you_could_see_the_forest_for_the_trees_ckyljfxyfmswy
+$
+```
+
+
