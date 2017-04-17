@@ -55,6 +55,18 @@ Writeups for Pico CTF 2017 capture the flag hacking compeition
 * Level 4
   * [Puzzlingly Accountable](https://github.com/MeadeRobert/PicoCTF2017/tree/master/forensics/level4/puzzlingly_accountable) (100 Pts)
 
+## Miscellaneous
+* Level 1
+  * [Internet Kitties] (10 Pts)
+  * [Piazza] (10 Pts)
+  * [Leaf Of The Tree] (20 Pts)
+  * [Looooong] (20 Pts)
+  * [Leaf Of The Forest] (30 Pts)
+  * [WorldChat] (30 Pts)
+* Level 2
+  * [Yarn] (55 Pts)
+  * [Mystery Box] (60 Pts)
+
 ## Reverse Engineering
 * Level 1
   * [Hex2Raw] (20 Pts)
