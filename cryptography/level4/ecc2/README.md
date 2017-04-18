@@ -33,7 +33,7 @@ step = 1
 start = 0
 
 for p, k in factor(E.order()):
-    # Pohlig-Hellman over this factor
+    # Pohlig-Hellman over this factor (https://en.wikipedia.org/wiki/Pohlig%E2%80%93Hellman_algorithm)
     f = p ** k
     nbase = base * (E.order() // f)
     nres = res * (E.order() // f)
@@ -44,7 +44,7 @@ for p, k in factor(E.order()):
         bounds = (start, start + b // (step - start))
     else:
         bounds = (0, f)
-    # Find this subgroup's discrete log using those bounds
+    # Find this subgroup's discrete log using those bounds (part of Pohlig-Hellman)
     r = bsgs(nbase, nres, bounds, operation='+')
     # Change start to include start % f == r
     start = crt(start, r, step, f)
