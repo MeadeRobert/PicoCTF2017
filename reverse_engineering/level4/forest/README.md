@@ -20,7 +20,7 @@ typedef struct _tree {
 	char val;
 } tree;
 
-bool checkIndiv(tree* in, char* string, char pass) {
+bool checkIndiv(tree* in, char* string, char pass) { # Make sure that pass is at the tree position indicated by string
 	if (in == NULL || string[0] == NULL) {
 		return false;
 	}
@@ -54,7 +54,7 @@ bool check(tree* in, char* string, char* password) {
 	bool sofar = true;
 	size_t si = 0;
 	size_t pi = 0;
-	while (string[si] != NULL && password[pi] != NULL) {
+	while (string[si] != NULL && password[pi] != NULL) { // For every string of Ls and Rs run checkIndiv on a password character and that string
 		sofar &&= checkIndiv(in, &string[si], password[pi]);
 		pi++;
 		while (string[si] == 'L' || string[si] == 'R') si++;
@@ -63,7 +63,7 @@ bool check(tree* in, char* string, char* password) {
 	return string[si] == NULL && password[pi] == NULL && sofar;
 }
 
-tree* updateTree(tree* in, char c) {
+tree* updateTree(tree* in, char c) { // Insert the character into the tree
 	if (in == NULL) {
 		tree* ret = (tree*)malloc(sizeof(tree));
 		ret->left = NULL;
@@ -83,13 +83,13 @@ tree* updateTree(tree* in, char c) {
 tree* genTree(char* st) {
 	tree* ret = NULL;
 	for (size_t i = 0; st[i] != NULL; i++) {
-		ret = updateTree(ret, st[i]);
+		ret = updateTree(ret, st[i]); // Inserts every character from the string into the tree.
 	}
 	return ret;
 }
 
 int main(int argc, char** argv) {
-	tree* maintree = genTree("yuoteavpxqgrlsdhwfjkzi_cmbn");
+	tree* maintree = genTree("yuoteavpxqgrlsdhwfjkzi_cmbn"); // Create a tree holding those characters
 	if (argc == 3) {
 		if (check(maintree, argv[2], argv[1])) {
 			printf("You did it! Submit the input as the flag\n");
@@ -115,7 +115,7 @@ s = "yuoteavpxqgrlsdhwfjkzi_cmbn"
 
 Tree = namedtuple("Tree", "l r v")
 
-def insert(c, t):
+def insert(c, t): # Inserts a character into the tree
     if t == None:
         return Tree(None, None, c)
     elif c <= t.v:
@@ -125,10 +125,10 @@ def insert(c, t):
 
 m = None
 
-for c in s:
+for c in s: # Insert every character from s into m
     m = insert(c, m)
 
-def find(t, p):
+def find(t, p): # Find the character at the tree position indicated by p, which is a string of Ls or Rs
     if p == "":
         return t.v
     elif p[0] == 'L':
@@ -141,7 +141,7 @@ paths = "DLLDLDLLLLLDLLLLRLDLLDLDLLLRRDLLLLRDLLLLLDLLRLRRRDLLLDLLLDLLLLLDLLRDLLL
 r = ""
 
 for p in paths:
-    r += find(m, p)
+    r += find(m, p) # Add each path's character to the final string
 
 print(r)
 ```
