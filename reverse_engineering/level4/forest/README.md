@@ -6,7 +6,7 @@ HINTS
 A number of disassemblers have tools to help view structs
 ```
 
-For this problem we used decompilers such as [snowman](https://derevenets.com/) and [boomerang](http://boomerang.sourceforge.net/) to convert the program over to C, then a simple python script to generate the correct input for that program by brute force over the set of all 32 bit integers.
+For this problem we used decompilers such as [snowman](https://derevenets.com/) and [boomerang](http://boomerang.sourceforge.net/) to convert the program over to C, then a simple python script to generate the correct input for that program by getting the character of the tree of at each of the different strings of L/R.
 
 The C code:
 ```c
@@ -104,6 +104,8 @@ int main(int argc, char** argv) {
 	return 0;
 }
 ```
+
+This program ensures that every character of the passphrase matches the character at the position of the tree indicated by each string of Ls/Rs.
 
 The Python code:
 ```python
