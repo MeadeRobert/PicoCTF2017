@@ -7,6 +7,6 @@
   * [Leaf Of The Forest] (30 Pts)
   * [WorldChat] (30 Pts)
 * Level 2
-  * [Yarn] (55 Pts)
+  * [Yarn](https://github.com/MeadeRobert/PicoCTF2017/blob/master/misc/level2/yarn/README.md) (55 Pts)
   * [Mystery Box] (60 Pts)
 
