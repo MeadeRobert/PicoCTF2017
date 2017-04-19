@@ -14,6 +14,6 @@
   * [Broadcast] (120 Pts)
   * [smallRSA] (120 Pts)
 * Level 4
-  * [smallSign] (140 Pts)
+  * [smallSign](https://github.com/MeadeRobert/PicoCTF2017/tree/master/cryptography/level4/small_sign) (140 Pts)
   * [Encrypted Shell] (190 Pts)
   * [ECC2](https://github.com/MeadeRobert/PicoCTF2017/tree/master/cryptography/level4/ecc2) (200 Pts)
