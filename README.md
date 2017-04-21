@@ -24,7 +24,7 @@ Writeups for Pico CTF 2017 capture the flag hacking compeition
 
 ## Cryptography
 * Level 1
-  * [Keys] (20 Pts)
+  * [Keyz](https://github.com/MeadeRobert/PicoCTF2017/tree/master/cryptography/level1/keyz) (20 Pts)
   * [Substitute] (40 Pts)
   * [Hash101] (50 Pts)
   * [computeAES] (50 Pts)

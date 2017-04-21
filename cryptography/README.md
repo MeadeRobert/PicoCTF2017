@@ -1,6 +1,6 @@
 ## Cryptography
 * Level 1
-  * [Keys] (20 Pts)
+  * [Keys](https://github.com/MeadeRobert/PicoCTF2017/tree/master/cryptography/level1/keyz) (20 Pts)
   * [Substitute] (40 Pts)
   * [Hash101] (50 Pts)
   * [computeAES] (50 Pts)
