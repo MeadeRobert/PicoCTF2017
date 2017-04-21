@@ -10,6 +10,6 @@ For this problem you simply need to search the directory and print the contents 
 
 ```
 $ cat `find /problems/f8fc794974ad619254d983bc423608c6 | grep flag`
-flag should print here
+a2916629ba334b79632b6af945131ea2
 $ 
 ```
