@@ -4,7 +4,7 @@ Writeups for Pico CTF 2017 capture the flag hacking compeition
 ## Binary Exploitation
 * Level 1
   * [Bash Loop](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level1/bash_loop) (40 Pts)
-  * [Just No] (40 Pts)
+  * [Just No](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level1/just_no) (40 Pts)
 * Level 2
   * [Shellz](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level2/shellz) (55 Pts)
   * [Shells](https://github.com/MeadeRobert/PicoCTF2017/tree/master/binary_exploitation/level2/shells) (70 Pts)
@@ -57,12 +57,18 @@ Writeups for Pico CTF 2017 capture the flag hacking compeition
 
 ## Miscellaneous
 * Level 1
-  * [Internet Kitties] (10 Pts)
-  * [Piazza] (10 Pts)
-  * [Leaf Of The Tree] (20 Pts)
-  * [Looooong] (20 Pts)
-  * [Leaf Of The Forest] (30 Pts)
-  * [WorldChat] (30 Pts)
+  * [Internet Kitties](https://github.com/MeadeRobert/PicoCTF2017/tree/\
+master/misc/level1/internet_kitties) (10 Pts)
+  * [Piazza](https://github.com/MeadeRobert/PicoCTF2017/tree/master/mis\
+c/level1/piazza) (10 Pts)
+  * [Leaf Of The Tree](https://github.com/MeadeRobert/PicoCTF2017/tree/\
+master/misc/level1/leaf_of_the_tree) (20 Pts)
+  * [Looooong](https://github.com/MeadeRobert/PicoCTF2017/tree/master/m\
+isc/level1/looooong) (20 Pts)
+  * [Leaf Of The Forest](https://github.com/MeadeRobert/PicoCTF2017/tre\
+e/master/misc/level1/leaf_of_the_forest) (30 Pts)
+  * [WorldChat](https://github.com/MeadeRobert/PicoCTF2017/tree/master/\
+misc/level1/world_chat) (30 Pts)
 * Level 2
   * [Yarn](https://github.com/MeadeRobert/PicoCTF2017/blob/master/misc/level2/yarn/README.md) (55 Pts)
   * [Mystery Box] (60 Pts)
